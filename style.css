@@ -74,7 +74,6 @@
             transition: transform 0.3s ease, box-shadow 0.3s ease;
             border: 1px solid #eaeaea;
             margin: auto;
-            text-align: center;
         }
 
         .card:hover {
