@@ -24,7 +24,7 @@
         ip {
             margin-bottom: 20px;
         }
-        
+
         nav a {
             color: white;
             text-decoration: none;
@@ -52,7 +52,6 @@
             color: white;
             text-align: center;
             padding: 1em 0;
-            position: fixed;
             bottom: 0;
             width: 100%;
         }
