@@ -21,9 +21,6 @@
 
         }
         
-        .ip {
-            margin-bottom: 20px;
-        }
 
         nav a {
             color: white;
@@ -108,5 +105,10 @@
     color: #000000ff;
     margin-bottom: 15px;
     font-size: 0.95em;
+}
+
+.text {
+    margin-bottom: 15px;
+    padding: 5px;
 }
 
