@@ -1,71 +1,66 @@
-		body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
-        
-        header {
-            background-color: #005ea8;
-            color: white;
-            text-align: center;
-            padding: 1em 0;
-        }
-        
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-            display: flex;
-            justify-content: space-evenly;
+			body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
 
-        }
-        
+header {
+    background-color: #005ea8;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
 
-        nav a {
-            color: white;
-            text-decoration: none;
-            padding: 10px 10px;
-            transition: all 0.3s ease-in-out;
-        }
-        
-        nav a:hover {
-            background-color: #fff;
-            color: #007bff;
-        }
-        
-        main {
-            max-width: 1200px;
-            margin: auto;
-            padding: 20px;
-        }
-        
-        section {
-            margin-bottom: 20px;
-        }
-        
-        footer {
-            background-color: #005ea8;
-            color: white;
-            text-align: center;
-            padding: 1em 0;
-            bottom: 0;
-            width: 100%;
-        }
-        /* Ниже стиль для фотографий */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
 
-        .container {
-            max-width: 750px;
-            margin: 0 auto;
-        }
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+    transition: all 0.3s ease-in-out;
+}
 
-      /* Остальные стили оставляем прежними... */
+nav a:hover {
+    background-color: #fff;
+    color: #007bff;
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #005ea8;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.container {
+    max-width: 100%; /* Увеличено использование доступного пространства */
+    margin: 0 auto;
+}
 
 .cards {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Теперь точно три столбца */
+    grid-template-columns: repeat(3, 1fr); /* Три одинаковые колонки занимают всю ширину родителя */
     gap: 25px;
-    justify-content: stretch; /* Растягиваем содержимое равномерно */
+    justify-content: stretch;
 }
 
 .card {
@@ -76,6 +71,7 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     border: 1px solid #eaeaea;
     margin: auto;
+    padding: 10px; /* Добавлено внутреннее отступление */
 }
 
 .card:hover {
@@ -85,7 +81,7 @@
 
 .card img {
     width: 100%;
-    height: 200px;
+    height: 250px; /* Немного увеличенная высота изображений */
     object-fit: cover;
     display: block;
 }
@@ -111,4 +107,5 @@
     margin-bottom: 15px;
     padding: 5px;
 }
+
 
